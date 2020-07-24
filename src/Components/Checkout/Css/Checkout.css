@@ -1,0 +1,10 @@
+.CheckoutPane{
+    width :150px;
+    margin:auto;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  
+}

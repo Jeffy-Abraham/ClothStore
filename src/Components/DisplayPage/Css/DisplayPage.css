@@ -1,0 +1,89 @@
+.DisplayContainer{
+width :1500px;
+margin: auto;
+
+
+
+}
+
+.ModelPic {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.animateunderline{
+animation-name: colorful;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+}
+
+  
+  @keyframes colorful {
+    0% {
+     border-bottom: none;
+    }
+    100% {
+        border-bottom: solid;
+    }
+  }
+
+.Filter {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: flex-end;
+  
+  
+ 
+}
+
+.subFilter {
+  padding: 200px;
+}
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: fit-content;
+  justify-content: center;
+}
+
+.ProductCard {
+  padding: 3%;
+  flex-basis: 22%;
+
+  display: flex; /* so child elements can use flexbox stuff too! */
+}
+.ProductImage img {
+  max-width: 100%;
+
+}
+.ProductInfo {
+  display: block;
+  margin-top: 10px;
+}
+.ModelImage img{
+    animation-name: Fade;
+    animation-duration: 1.5;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    max-width: 100%;
+    height: auto;
+    
+
+
+}
+@keyframes Fade {
+  0% {
+        visibility: hidden;
+
+  }
+ 
+  100% {
+   visibility:visible;
+
+  }
+}

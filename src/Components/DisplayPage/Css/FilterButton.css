@@ -1,0 +1,51 @@
+.RadioOptionSet
+{
+    margin-top: 7px;
+    width: 340px;
+    height: fit-content;
+    background-color:'white';
+    border-radius: 4px;
+    padding-right: 40px;
+    display: none;
+    position: absolute;
+    box-shadow: 0 5px 13px -2px rgba(0,0,0,.8)
+  
+    
+    
+    
+}
+.FilterBox{
+     margin-right: 100px;
+}
+.Options{
+    background-color: white;
+    margin: 10px;
+    font-family: 'Raleway';
+    padding:15px;
+    width: 318px;
+    border-style:solid ;
+    border-color:#add8e6;
+    border-width: 1px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+    
+
+}
+
+button{
+   
+    background-color:white;
+    border: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.Hide{
+    margin-left: 140px;
+    color: black;
+   
+    
+}
