@@ -1,43 +1,39 @@
-.DisplayContainer{
-width :1500px;
-margin: auto;
-
-
-
+.DisplayContainer {
+  width: 95%;
+  margin: auto;
+  
 }
 
 .ModelPic {
   display: flex;
-  margin-top: 50px;
+  padding: 20px;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 50px;
+  
   justify-content: center;
+  width: 100%;
+  margin: auto;
 }
-.animateunderline{
-animation-name: colorful;
-animation-duration: 4s;
-animation-fill-mode: forwards;
+.animateunderline {
+  animation-name: colorful;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
 }
 
-  
-  @keyframes colorful {
-    0% {
-     border-bottom: none;
-    }
-    100% {
-        border-bottom: solid;
-    }
+@keyframes colorful {
+  0% {
+    border-bottom: none;
   }
+  100% {
+    border-bottom: solid;
+  }
+}
 
 .Filter {
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
   justify-content: flex-end;
-  
-  
- 
 }
 
 .subFilter {
@@ -59,31 +55,25 @@ animation-fill-mode: forwards;
 }
 .ProductImage img {
   max-width: 100%;
-
 }
 .ProductInfo {
   display: block;
   margin-top: 10px;
 }
-.ModelImage img{
-    animation-name: Fade;
-    animation-duration: 1.5;
-    animation-fill-mode: forwards;
-    visibility: hidden;
-    max-width: 100%;
-    height: auto;
-    
-
+.ModelImage img {
+  animation-name: Fade;
+  animation-duration: 1.5;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  width: 70%;
 
 }
 @keyframes Fade {
   0% {
-        visibility: hidden;
-
+    visibility: hidden;
   }
- 
-  100% {
-   visibility:visible;
 
+  100% {
+    visibility: visible;
   }
 }

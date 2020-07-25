@@ -46,7 +46,7 @@ header{
 .Cart
 {
  margin-top: 34px;
- margin-right: 150px;
+ margin-right: 5%;
 
 }
 .line{
@@ -55,7 +55,7 @@ header{
   height: 1px;
   border-bottom: 1px solid black;
   position: relative;
-  margin-left: 35px;
+ width: 70%;
   animation-name: draw;
  animation-duration: 1s;
   animation-fill-mode: forwards;  
@@ -63,12 +63,7 @@ header{
 
   
   }
-.cent{
-  width:1400px;
-  margin: auto;
 
-
-}
 .dropbtn:active{
   background-color:none;
  
@@ -93,6 +88,10 @@ header{
   animation-name: dropanime !important;
   animation-duration: 0.5s !important;
   animation-fill-mode: forwards !important;
+}
+.cent{
+  width: 86%;
+  margin: auto;
 }
 .CartTitle{
   display: flex;
