@@ -14,25 +14,18 @@ class DisplayPage extends Component {
     return (
       <div>
         <div className="DisplayContainer">
-          <div className="ModelPic" >
+          <div className="ModelPic">
             <ModelPic ModelPic={this.props.ModelPicGuy} />
-           
+
             <ModelPicTitle title={this.props.ModelTitle} />
           </div>
 
-          <div className="Filter" style={{ width: "100%", height: "40px" }}>
+          <div className="Filter" style={{ width: "50%", height: "40px" }}>
             <SortbyPrice
               title={"SORT BY PRICE"}
               filterClothesbyPrice={this.props.filterClothesbyPrice}
             />
-            <SortbyPrice
-              title={"MOST BOUGHT"}
-              filterClothesbyPrice={this.props.filterClothesbyPrice}
-            />
-            <SortbyPrice
-              title={"COLOR"}
-              filterClothesbyPrice={this.props.filterClothesbyPrice}
-            />
+          
           </div>
           <section className="Products">
             {clothTypes.map((cloths) => {

@@ -5,9 +5,9 @@ class DisplayGrid extends Component {
     const { displaypic } = this.props;
     return (
       <section>
-        <div className="ProductCard" >
+        <div className="ProductCard">
           <div className="ProductImage">
-            <img src={displaypic.ImageLink} width="320" height="480" alt="j"/>
+            <img src={displaypic.ImageLink} width="320" height="480" alt="j" />
             <div class="ProductInfo">
               <h5
                 style={{

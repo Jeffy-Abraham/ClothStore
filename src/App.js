@@ -18,7 +18,7 @@ class App extends Component {
       ModelPicGalTitle: "DRESS COLLECTION",
       ModelPicGuyTitle: "SHIRTS",
       ModelPicGuy:
-        "https://static.zara.net/photos///2020/V/0/2/p/1928/213/620/2/w/700/1928213620_2_3_1.jpg?ts=1580458901000",
+        "https://static.zara.net/photos///2020/I/0/2/p/5516/441/250/2/w/1140/5516441250_1_1_1.jpg?ts=1594061432291",
       ModelPicGal:
         "https://static.zara.net/photos///rw-center/2020/I/0/1/p/1660/309/612/82/w/1884/1660309612_1_1_1.jpg?ts=1592909355999",
       clothCart: [],

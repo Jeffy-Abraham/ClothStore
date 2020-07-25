@@ -2,18 +2,17 @@ import React from "react";
 
 function ModelPicTitle(props) {
   return (
-    <div style={{ width:'70%' }}>
-    
+    <div>
       <h1
         className="animate"
         style={{
           fontFamily: "Raleway",
           fontWeight: "600",
           marginTop: "100px",
-          fontSize: "55px",
+          fontSize: "45px",
           letterSpacing: "0.1rem",
           borderBottom: "solid",
-          width:'0%'
+          width: "90%",
         }}
       >
         {props.title}
@@ -28,7 +27,7 @@ function ModelPicTitle(props) {
       >
         NEW SPRING COLLECTION
       </h1>
-      <p style={{  fontSize: "16px", fontWeight: "lighter" }}>
+      <p style={{ fontSize: "16px", fontWeight: "lighter" }}>
         The new designer spring collection is here.Check out here for new and
         exciting offers.Floral loose fitting tshirts for all kinds of men
       </p>
