@@ -31,12 +31,15 @@ function SortbyPrice(props) {
           onChange={props.filterClothesbyPrice.bind(this)}
         >
           <div className="Options">
+            <div>
             <label
               for="LowtoHigh"
               style={{ fontSize: "15px", fontWeight: "600" }}
             >
               Price high to low
             </label>
+            </div>
+            <div>
             <input
               className="Hide"
               type="radio"
@@ -44,14 +47,18 @@ function SortbyPrice(props) {
               name="Price"
               value="1"
             />
+            </div>
           </div>
           <div className="Options">
+            <div>
             <label
               for="HightoLow"
               style={{ fontSize: "15px", fontWeight: "600" }}
             >
               Price low to high
             </label>
+            </div>
+            <div>
             <input
               className="Hide"
               type="radio"
@@ -59,6 +66,7 @@ function SortbyPrice(props) {
               name="Price"
               value="2"
             />
+            </div>
           </div>
         </div>
       </div>

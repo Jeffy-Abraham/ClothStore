@@ -23,13 +23,17 @@
     background-color: white;
     margin: 10px;
     font-family: 'Raleway';
-    padding:15px;
-    width: 318px;
+    padding:3px;
+    width: 100%;
     border-style:solid ;
     border-color:#add8e6;
     border-width: 1px;
     border-radius: 5px;
     text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    
    
     
 
@@ -46,8 +50,8 @@ button{
 }
 
 .Hide{
-    margin-left: 140px;
+    
     color: black;
-   
+    align-items: center;  
     
 }
