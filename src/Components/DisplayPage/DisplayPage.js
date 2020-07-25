@@ -16,8 +16,9 @@ class DisplayPage extends Component {
         <div className="DisplayContainer">
           <div className="ModelPic" >
             <ModelPic ModelPic={this.props.ModelPicGuy} />
-
+            <div style={{width:'30%',marginLeft:'-100px'}}> 
             <ModelPicTitle title={this.props.ModelTitle} />
+            </div>
           </div>
 
           <div className="Filter" style={{ width: "100%", height: "40px" }}>
