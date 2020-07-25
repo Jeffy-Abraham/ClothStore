@@ -9,16 +9,17 @@ function SortbyPrice(props) {
     <div>
       <div className="FilterBox">
         <div className="FilterTitle">
-          <button onClick={setVisiblityofRadio} style={{ opacity: "2px" }}>
+          <button onClick={setVisiblityofRadio} style={{ opacity: "2px",borderStyle:'solid',borderWidth:'0.8px' ,padding:'10px',borderColor:'lightgray'}}>
             {" "}
             <span
               style={{
                 marginLeft: "10px",
-                color: "#E72744",
-                fontSize: "15px",
+                color: "black",
+                fontSize: "13px",
                 letterSpacing: "0.2rem",
-                fontWeight: "bolder",
+                fontWeight:'600',
                 fontFamily: "Raleway",
+                 lineHeight:'10px'
               }}
             >
               {props.title} +

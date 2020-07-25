@@ -20,9 +20,9 @@ class DisplayPage extends Component {
             <ModelPicTitle title={this.props.ModelTitle} />
           </div>
 
-          <div className="Filter" style={{ width: "50%", height: "40px" }}>
+          <div className="Filter" style={{ width: "100%", height: "40px"}}>
             <SortbyPrice
-              title={"SORT BY PRICE"}
+              title={"FILTER"}
               filterClothesbyPrice={this.props.filterClothesbyPrice}
             />
           
