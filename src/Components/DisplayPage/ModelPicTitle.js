@@ -2,7 +2,7 @@ import React from "react";
 
 function ModelPicTitle(props) {
   return (
-    <div>
+    <div style={{ width:'70%' }}>
     
       <h1
         className="animate"
@@ -10,10 +10,10 @@ function ModelPicTitle(props) {
           fontFamily: "Raleway",
           fontWeight: "600",
           marginTop: "100px",
-          fontSize: "3.5vw",
+          fontSize: "55px",
           letterSpacing: "0.1rem",
           borderBottom: "solid",
-         
+          width:'0%'
         }}
       >
         {props.title}
@@ -23,7 +23,7 @@ function ModelPicTitle(props) {
           fontFamily: "Raleway",
           fontWeight: "500",
           marginTop: "80px",
-          fontSize: "2.5",
+          fontSize: "34px",
         }}
       >
         NEW SPRING COLLECTION
