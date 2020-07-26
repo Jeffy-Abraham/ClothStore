@@ -11,8 +11,36 @@ class Topnav extends Component {
   }
   render() {
     return (
-      <div className="MainContainer">
-        <header>
+      
+      <div>
+
+
+
+             <div className="MainContainer">
+        <div className="HamburgerMenu">
+          <div className="SubHamburger">
+            <div className="Hamburger">
+              <div className="line1"></div>
+              <div className="line2"></div>
+              <div className="line3"></div>
+            </div>
+
+            <div className="Title2">ARARA</div>
+          </div>
+          <div className="Cart2"> 
+           <Cart
+           
+            clothCart={this.props.clothCart}
+            RemoveFromCart={this.props.RemoveFromCart}
+          /></div>
+        
+          </div>
+     
+        
+      
+        </div>
+
+        <header className='Navgat'>
           <nav>
             <ul>
               <li style={{ marginTop: "-20px" }}>
@@ -26,8 +54,6 @@ class Topnav extends Component {
               <li>
                 <Link to="/Women">WOMEN</Link>
               </li>
-            
-             
             </ul>
           </nav>
           <Cart

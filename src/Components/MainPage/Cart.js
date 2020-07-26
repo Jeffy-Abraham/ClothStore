@@ -28,7 +28,7 @@ class Cart extends Component {
           <button className="dropbtn" style={{ marginTop: "-10px" }}>
             <div style={{ position: "relative" }}>
               {" "}
-              <img src={Carts} width="30px" height="27px" />{" "}
+              <img src={Carts} width="25px" height="21px" />{" "}
               <div
                 style={{
                   position: "absolute",
