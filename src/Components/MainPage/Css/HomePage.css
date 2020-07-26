@@ -1,3 +1,20 @@
+@media only screen and (max-width: 700px) {
+ header{
+ display: none;
+ }
+ .HamburgerMenu{
+   display: flex !important;
+  width: 100%px;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 42px;
+ 
+ }
+
+
+}
+
+
 li a{
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  letter-spacing: 0.1rem;
@@ -20,7 +37,7 @@ li a{
  
 }
 .Navgat{
-  display: none;
+  display: flex;
 }
 
 li {
@@ -33,7 +50,7 @@ ul {
 
   
 }
-header{
+nav{
   display:flex;
   
   justify-content: space-between;
@@ -135,11 +152,9 @@ header{
   
 
 .HamburgerMenu{
-  display: flex;
-  width: 100%px;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-top: 42px;
+  display: none;
+
+  
 }
 .SubHamburger{
   display: flex;

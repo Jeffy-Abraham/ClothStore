@@ -40,7 +40,7 @@ class Topnav extends Component {
       
         </div>
 
-        <header className='Navgat'>
+        <header >
           <nav>
             <ul>
               <li style={{ marginTop: "-20px" }}>
@@ -55,12 +55,13 @@ class Topnav extends Component {
                 <Link to="/Women">WOMEN</Link>
               </li>
             </ul>
-          </nav>
-          <Cart
+            <Cart
             className="Cart"
             clothCart={this.props.clothCart}
             RemoveFromCart={this.props.RemoveFromCart}
           />
+          </nav>
+        
         </header>
       </div>
     );
