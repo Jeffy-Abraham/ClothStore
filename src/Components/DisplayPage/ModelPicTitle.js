@@ -1,13 +1,14 @@
 
 import React, { Component } from "react";
-import { TweenLite, CSSPlugin } from "gsap/all";
+import {gsap, TweenLite, CSSPlugin } from "gsap/all";
 
 
 class ModelPicTitle extends Component {
 
 
 	componentDidMount(){
-		// create logo tween
+    // create logo tween
+    gsap.registerPlugin(CSSPlugin)
     this.logoTween =  TweenLite.to(this.myElement, 1, {y: 40,delay:0.5 });
     this.logoTween2=TweenLite.to(this.myElement2,1,{x:-30,delay:1.6})
  
