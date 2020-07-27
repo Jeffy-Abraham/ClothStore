@@ -6,9 +6,14 @@ import SortbyPrice from "./SortbyPrice";
 import ModelPic from "./ModelPic";
 import ModelPicTitle from "./ModelPicTitle";
 import { Link } from "react-router-dom";
-import { Spring } from "react-spring/renderprops";
+import { TimelineLite, CSSPlugin } from "gsap/all";
 
 class DisplayPage extends Component {
+
+
+
+
+  
   render() {
     const { clothTypes } = this.props;
 
@@ -17,13 +22,10 @@ class DisplayPage extends Component {
         <div className="DisplayContainer">
           <div className="ModelPic">
             <ModelPic ModelPic={this.props.ModelPicGuy} />
-            <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
-            {(props) => (
-              <div style={props}>
+              <div>
                 <ModelPicTitle title={this.props.ModelTitle} />
               </div>
-            )}
-          </Spring>
+        
            
           </div>
 
