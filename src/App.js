@@ -188,10 +188,7 @@ class App extends Component {
     this.RemoveFromCart = this.RemoveFromCart.bind(this);
   }
   AddToCart(cloth) {
-    document.getElementsByClassName("dropdown-content")[0].style.display =
-      "block";
-    document.getElementsByClassName("dropdown-content")[0].style.animation =
-      " dropanime 0.5s";
+    alert('Item Added To Cart ,Click on the Cart icon to checkout')
 
     this.setState({ clothCart: [cloth.addedItem, ...this.state.clothCart] });
   }

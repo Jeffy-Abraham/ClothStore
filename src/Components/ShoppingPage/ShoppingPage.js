@@ -13,6 +13,43 @@ class ShoppingPage extends Component {
 
     return (
       <div className="CenterShoppingPage">
+         <div className='MiniShoppingContainer' >
+  
+
+         <img src={cloth.ImageLink} />
+        <div style={{marginTop:'25px'}}>
+        <ClickButton AddToCart={this.props.AddToCart} addedItem={cloth} />
+        <div style={{marginTop:'-20px'}}>
+        <h1
+                style={{
+                  fontFamily: "Tahoma",
+                  fontWeight: "500",
+                  marginTop: "80px",
+                  fontSize: "20px",
+                  letterSpacing: "0.2rem",
+                }}
+              >
+                {cloth.Title}
+              </h1>
+              <p
+                style={{
+                  width: "540px",
+                  fontSize: "14px",
+                  fontFamily: "Raleway",
+                  maxWidth: "300px",
+                }}
+              >
+                {cloth.Description}{" "}
+              </p>
+              <p style={{ fontSize: "20px" }}>{cloth.Price}</p>
+              
+              </div>
+          
+        </div>
+
+
+         </div>
+
         <div className="ShoppingContainer">
           <div className="ShoppingImage">
             <img src={cloth.ImageLink} width="400" height="600" />
