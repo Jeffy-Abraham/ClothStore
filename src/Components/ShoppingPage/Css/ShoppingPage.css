@@ -1,17 +1,35 @@
+@media only screen and (max-width: 700px) {
+  .ShoppingContainer{
+    display: none !important;
+  }
+
+.MiniShoppingContainer{
+  display: flex !important;
+}
+
+
+
+}
+
+
+
+
+
 .ShoppingContainer
 {
   display: grid;
   grid-template-columns: auto auto ;
   margin-top: 40px;
-  display: none;
+ 
  
 }
 .MiniShoppingContainer
 {
-  display: flex;
+ 
   flex-direction: column;
   align-items: center;
   border-bottom: 20px;
+  display :none;
 }
 .MiniShoppingContainer img{
   width: 70%;
@@ -34,7 +52,9 @@
 .BuyButton{
   margin-top: 30px;
   background-color: black;
+  width: fit-content;
 }
+
 p.Colors{
   display: inline;
 
