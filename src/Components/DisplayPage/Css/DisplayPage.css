@@ -1,5 +1,5 @@
 .DisplayContainer {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
@@ -44,14 +44,15 @@
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  width: fit-content;
+  width: 100%;
   justify-content: center;
+  
 }
 
 .ProductCard {
   padding: 3%;
   flex-basis: 22%;
-
+  width: 100%;
   display: flex; /* so child elements can use flexbox stuff too! */
 }
 .ProductImage img {

@@ -18,8 +18,8 @@ class DisplayPage extends Component {
     const { clothTypes } = this.props;
 
     return (
-      <div>
-        <div className="DisplayContainer">
+      
+        <div className="DisplayContainer" >
           <div className="ModelPic">
             <ModelPic ModelPic={this.props.ModelPicGuy} />
               <div>
@@ -49,7 +49,7 @@ class DisplayPage extends Component {
             })}
           </section>
         </div>
-      </div>
+      
     );
   }
 }
