@@ -10,7 +10,7 @@
   justify-content: center;
 
   justify-content: center;
-  width: 100%;
+  width: 70%;
   margin: auto;
 }
 .animateunderline {
@@ -50,8 +50,8 @@
 }
 
 .ProductCard {
-  padding: 3%;
-  flex-basis: 22%;
+  padding: 7%;
+  flex-basis: 16%;
   width: 100%;
   display: flex; /* so child elements can use flexbox stuff too! */
 }

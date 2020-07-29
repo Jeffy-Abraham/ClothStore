@@ -35,6 +35,7 @@
   width: 70%;
   display: block;
   margin-top: 20px;
+
   
 }
 .CenterShoppingPage
@@ -44,6 +45,14 @@
 }
 .ShoppingImage img{
   z-index: -2;
+
+
+
+}
+.ShoppingImage{
+
+  display: flex;
+  justify-content: flex-end;
 }
 .ShoppingBuy{
   margin-left: 50px;
